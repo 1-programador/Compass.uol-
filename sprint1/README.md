@@ -24,8 +24,9 @@ Para utilizar o sistema basta seguir as seguintes etapas:
  <li>HTML e css</li>
 
  <h3>Link de Acesso</h3>
-Para acesso do video: https://drive.google.com/file/d/1y2-moaB9o2iakbqCNnexgi_k1V8KkGeP/view?usp=sharing
-Para acessar o repositorio: https://github.com/1-programador/Compass.uol-.git
+<li>Para acesso do video: https://drive.google.com/file/d/1y2-moaB9o2iakbqCNnexgi_k1V8KkGeP/view?usp=sharing</li>
+
+<li>Para acessar o repositorio: https://github.com/1-programador/Compass.uol-.git</li>
 
  <h3>Dificuldades encontradas</h3>
  Ao desenvolver este projecto, deparei-me com a dificuldade de difinir uma diferenca que me permita imprimir a mensagem de que o valor digita esta proximo ou acima do valor correcto, por isso acabei colocando uma diferenca de 10 valores.
