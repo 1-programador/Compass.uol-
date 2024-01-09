@@ -1,1 +1,65 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
+#bemv{
+font-family: monospace;
+text-align: center;
+color: aliceblue;
+size: 10pt;
+}
+#rd {
+  display: none;
+}
+input[id="rd"]:checked + div.bg {
+  display: none;
+  z-index: -1000;
+  opacity: 0;
+}
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  /* remover animação se quiser que ele aparece direto sem delay  */
+  -webkit-animation: tempo 500ms ease-in 1s forwards;
+          animation: tempo 500ms ease-in 1s forwards;
+}
+.box {
+  background-color: rgb(0, 2, 3);
+  width: 250px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box label {
+  background-color: #01161b;
+  width: 200px;
+  height: 80px;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+/* remover se remover a animação do modal  */
+@-webkit-keyframes tempo {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes tempo {
+  to {
+    opacity: 1;
+  }
+}
